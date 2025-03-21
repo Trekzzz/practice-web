@@ -3,49 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
+    <style>
+        /* Custom styles for image positioning */
+        .spongebob {
+            transform: translate(-160%, 90%);
+        }
+
+        .benny, .dipper, .yui {
+            transform: translate(50%, -15%); /* Adjusted for consistent positioning */
+        }
+
+        .benny {
+            transform: translate(60%, -15%); /* Override for benny */
+        }
+    </style>
 </head>
-<body>
-    <div class="containerC">
-        <div class="circle"></div>
-        <div class="circleA"></div>
+<body class="bg-white">
+    <div class="bg-[#DE638A] w-full h-[300px] flex flex-wrap">
+        <div class="rounded-full bg-[#DE638A] h-[100px] w-[100px] translate-y-[250%]"></div>
+        <div class="rounded-full bg-[#DE638A] h-[200px] w-[200px] translate-y-[100%]"></div>
 
-
-
-        <div class="card">
-            <img class="rex" src="imahe/me.jpg" alt="">
-
-            <h2>Rex Nicholas C. Sevilla</h2>
-
-            <h3>BSCS 2A</h3>
-
+        <div class="bg-[#F7B9C4] translate-x-[30%] translate-y-[40%] h-[400px] w-[350px] text-center rounded-l-[5%] shadow-[5px_15px_10px_5px_grey]">
+            <img class="h-[150px] w-[150px] rounded-full mt-[10%] mx-auto" src="imahe/me.jpg" alt="">
+            <h2 class="font-sans">Rex Nicholas C. Sevilla</h2>
+            <h3 class="font-sans">BSCS 2A</h3>
         </div>
 
-        <div class="card2">
-
-            <h2>who am I?</h2>
-            <p class="mb-4">I'm Rex Nicholas Cuasay Sevilla
+        <div class="bg-[#F3D9E5] translate-x-[30%] translate-y-[40%] h-[400px] w-[350px] rounded-r-[5%] text-center shadow-[5px_15px_10px_5px_grey]">
+            <h2 class="font-sans">who am I?</h2>
+            <p class="mb-4 font-sans">
+                I'm Rex Nicholas Cuasay Sevilla
                 <br>I am 21 years old, was born in October 28
                 <br>2003
             </p>
-            <a href="https://www.facebook.com/profile.php?id=100069676099975">My Facebook profile</a>
-            <p>My Fav characters</p>
-            <img class="yui" class="w-20 h-20 rounded-md" src="imahe/yui.jfif" alt="">
-            <img class="dipper" class="w-20 h-20 rounded-md" src="imahe/dipper.jpg" alt="">
-            <img class="spongebob" src="imahe/spongebob.jfif" alt="">
-            <img class="benny" src="imahe/benny.jfif" alt="">
-
+            <a href="https://www.facebook.com/profile.php?id=100069676099975" class="font-sans">My Facebook profile</a>
+            <p class="font-sans">My Fav characters</p>
+            <img class="yui h-[100px] w-[100px] rounded-full" src="imahe/yui.jfif" alt="">
+            <img class="dipper h-[100px] w-[100px] rounded-full" src="imahe/dipper.jpg" alt="">
+            <img class="spongebob h-[100px] w-[100px] rounded-full" src="imahe/spongebob.jfif" alt="">
+            <img class="benny h-[100px] w-[100px] rounded-full" src="imahe/benny.jfif" alt="">
         </div>
-
-
-        
-        
     </div>
-    
-
-
-
-    
 </body>
 </html>
